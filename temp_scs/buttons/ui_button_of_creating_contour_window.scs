@@ -1,0 +1,8 @@
+ui_button_of_creating_contour_window <- ui_button;
+                                     <- ui_command_of_window_contour_creation;;
+
+ui_button_of_creating_contour_window => nrel_main_idtf:
+	[Кнопка создания контурного окна]
+	(* <- lang_ru;; *);
+	[Button creating a contour window]
+	(* <- lang_en;; *);;

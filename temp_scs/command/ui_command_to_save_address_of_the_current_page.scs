@@ -1,0 +1,7 @@
+ui_command_to_save_address_of_the_current_page <- sc_node_not_relation;;
+
+ui_command_to_save_address_of_the_current_page => nrel_main_idtf:
+	[Команда представления системе]
+	(* <- lang_ru;; *);
+	[Command to save the address of the current_page]
+	(* <- lang_en;; *);;

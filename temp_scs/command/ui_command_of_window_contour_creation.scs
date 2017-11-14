@@ -1,0 +1,7 @@
+ui_command_of_window_contour_creation <- sc_node_not_relation;;
+
+ui_command_of_window_contour_creation => nrel_main_idtf:
+	[Команда создания контурного окна]
+	(* <- lang_ru;; *);
+	[Command of window contour creation]
+	(* <- lang_en;; *);;

@@ -1,0 +1,10 @@
+ui_button_for_displaying_hypertext_content <- ui_button;
+                                           <- ui_command_of_displaying_hypertext_content;; 
+
+ui_button_for_displaying_hypertext_content => nrel_main_idtf:
+	[Кнопка вывода гипертекстового содержимого]
+	(* <- lang_ru;; *);
+	[Button for displaying hypertext content]
+	(* <- lang_en;; *);;
+
+ui_button_for_displaying_hypertext_content => nrel_class_of_arguments: ui_window_of_message_of_output;;

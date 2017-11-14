@@ -1,0 +1,8 @@
+ui_group_of_buttons <- sc_node_not_relation;;
+
+ui_group_of_buttons => nrel_main_idtf:
+	[Группа кнопок]
+	(* <- lang_ru;; *);
+	[Group of buttons]
+	(* <- lang_en;; *);;
+

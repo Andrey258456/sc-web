@@ -1,0 +1,12 @@
+ui_message_of_ostis_system <- sc_node_not_relation;;
+
+ui_message_of_ostis_system => nrel_main_idtf:
+	[Сообщение ostis-системы]
+	(* <- lang_ru;; *);
+	[Message of ostis-system]
+	(* <- lang_en;; *);;
+
+ui_message_of_ostis_system <= nrel_subdividing: ui_internal_message_of_ostis_system;
+                           <= nrel_subdividing: ui_external_message_of_ostis_system;
+                           <= nrel_subdividing: ui_receptor_message_of_ostis_system;
+                           <= nrel_subdividing: ui_effective_message_of_ostis_system;;

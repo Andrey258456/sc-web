@@ -1,0 +1,13 @@
+ui_button_group_of_user_settings_window <- ui_group_of_buttons;
+                                        <- set;;
+
+ui_button_group_of_user_settings_window => nrel_main_idtf:
+	[Группа кнопок окна пользовательских настроек]
+	(* <- lang_ru;; *);
+	[Button group of the user settings window]
+	(* <- lang_en;; *);;
+
+ ui_button_group_of_user_settings_window -> ui_control_select_window_type;
+                                         -> ui_control_print_window_content;
+                                         -> ui_button_to_save_current_page_address;
+                                         -> ui_button_of_creating_contour_window;;

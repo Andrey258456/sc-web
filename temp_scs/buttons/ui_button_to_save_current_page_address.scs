@@ -1,0 +1,10 @@
+ui_button_to_save_current_page_address <- ui_button;
+                                       <- ui_command_to_save_address_of_the_current_page;;
+
+ui_button_to_save_current_page_address => nrel_main_idtf:
+	[Кнопка сохранения текущего адреса страницы]
+	(* <- lang_ru;; *);
+	[Button to save the current page address]
+	(* <- lang_en;; *);;
+
+ui_button_to_save_current_page_address => nrel_class_of_arguments: ui_main_window;;

@@ -5,7 +5,3 @@ ui_command_representation_system => nrel_main_idtf:
 	(* <- lang_ru;; *);
 	[Command of representation for the system]
 	(* <- lang_en;; *);;
-
-
-
-                

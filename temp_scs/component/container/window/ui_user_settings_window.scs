@@ -1,0 +1,10 @@
+ui_user_settings_window <- ui_frame_window;;
+
+ui_user_settings_window => nrel_main_idtf:
+	[Окно пользовательских настроек]
+	(* <- lang_ru;; *);
+	[User settings window]
+	(* <- lang_en;; *);;
+
+ui_user_settings_window => nrel_inclusion: ui_button_group_of_user_settings_window;
+                        => nrel_inclusion: ui_control_search_idtf_edit;;

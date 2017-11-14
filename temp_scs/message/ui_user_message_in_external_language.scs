@@ -1,0 +1,7 @@
+ui_user_message_in_external_language <- sc_node_not_relation;;
+
+ui_user_message_in_external_language => nrel_main_idtf:
+	[Сообщение пользователя на внешнем языке]
+	(* <- lang_ru;; *);
+	[User message in external language]
+	(* <- lang_en;; *);;

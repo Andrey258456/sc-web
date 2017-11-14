@@ -1,0 +1,10 @@
+ui_message <- sc_node_not_relation;;
+
+ui_message => nrel_main_idtf:
+	[Сообщение]
+	(* <- lang_ru;; *);
+	[Message]
+	(* <- lang_en;; *);;
+
+ui_message <= nrel_subdividing: ui_message_of_users_of_ostis_system;
+           <= nrel_subdividing: ui_message_of_ostis_system;;

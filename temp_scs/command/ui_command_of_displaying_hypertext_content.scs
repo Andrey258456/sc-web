@@ -1,0 +1,7 @@
+ui_command_of_displaying_hypertext_content <- sc_node_not_relation;;
+
+ui_command_of_displaying_hypertext_content => nrel_main_idtf:
+	[Команда вывода гипертекстового содержимого]
+	(* <- lang_ru;; *);
+	[Command of displaying hypertext content]
+	(* <- lang_en;; *);;

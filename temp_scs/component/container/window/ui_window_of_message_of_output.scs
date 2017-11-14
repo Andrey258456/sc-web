@@ -1,0 +1,8 @@
+ui_window_of_message_of_output <- ui_message; 
+                               <- ui_contour_window;;
+
+ui_window_of_message_of_output => nrel_main_idtf:
+	[Окно вывода пользовательских сообщений]
+	(* <- lang_ru;; *);
+	[Window of message of output]
+	(* <- lang_en;; *);;
