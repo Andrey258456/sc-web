@@ -8,5 +8,5 @@ ui_help_button => nrel_main_idtf:
 	(* <- lang_en;; *);;
 
 
-ui_help_button => nrel_main_idtf: ui_help_icon;;
+ui_help_button => nrel_idtf: ui_help_icon;;
 

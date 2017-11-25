@@ -1,7 +1,13 @@
 ui_login_button <- ui_button;
                 <- ui_command_representation_system;;
 
-ui_login_button => nrel_main_idtf: ui_login_icon;;
+ui_login_button => nrel_main_idtf:
+	[Кнопка для авторизации]
+	(* <- lang_ru;; *);
+	[Login button]
+	(* <- lang_en;; *);;
+
+ui_login_button => nrel_idtf: ui_login_icon;;
 
 
 
